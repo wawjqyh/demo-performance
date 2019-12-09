@@ -3,16 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node cache/www.js"
+    "demo-cache": "node 4-cache/app.js"
   },
-  "dependencies": {
-    "debug": "^4.1.1",
-    "koa": "^2.5.0",
-    "koa-bodyparser": "^4.2.1",
-    "koa-conditional-get": "^2.0.0",
-    "koa-etag": "^3.0.0",
-    "koa-logger": "^3.2.1",
-    "koa-onerror": "^4.1.0",
-    "koa-static": "^5.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "serve-static": "^1.14.1"
   }
 }
