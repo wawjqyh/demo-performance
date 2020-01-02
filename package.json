@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "demo-cache": "node 4-cache/app.js"
+    "demo-cache": "node 4-cache/app.js",
+    "5": "node 5-load/app.js"
   },
   "dependencies": {},
   "devDependencies": {
