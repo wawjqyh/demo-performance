@@ -18,8 +18,12 @@
 
   <body>
     <div class="text1">line1</div>
+
+    <!-- 观察加了 defer 属性后，是否影响页面的渲染 -->
+    <!-- 观察两个 js 的执行顺序 -->
     <script src="./script1.js" defer></script>
     <script src="./script2.js" defer></script>
+
     <div class="text1">line2</div>
   </body>
 </html>

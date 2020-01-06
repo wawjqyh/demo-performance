@@ -7,7 +7,11 @@
   </head>
   <body>
     <div class="text1">line1</div>
+
+    <!-- css 文件的前后都有 html 内容 -->
+    <!-- 观察 html 的渲染顺序，css 加载中是否阻塞后面的 html 渲染 -->
     <link href="./styles.css" rel="stylesheet" />
+
     <div class="text1">line2</div>
   </body>
 </html>

@@ -12,11 +12,15 @@
         while (new Date().getTime() < endTime) {}
       }
 
+      // 通过死循环阻塞
       sleep(3);
     </script>
   </head>
   <body>
     <div class="text1">line1</div>
+
+    <!-- css 文件在 js 后面加载 -->
+    <!-- 观察 css 是否需要等待 js 运行完成再加载 -->
     <link href="./styles.css" rel="stylesheet" />
   </body>
 </html>
